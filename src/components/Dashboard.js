@@ -1,11 +1,12 @@
 //components/Dashboard.js
 import React from "react";
+import Sidebar from "./Sidebar";
 
 function Dashboard({ id }) {
   return (
     <div>
       <h2>Dashboard</h2>
-      {id}
+      <Sidebar id={id} />
     </div>
   );
 }
